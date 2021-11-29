@@ -1,0 +1,11 @@
+{
+  "name": "kartjim",
+  "version": "1.0.01",
+  "description": "vuepress-kartjim",
+  "main": "index.js",
+  "author": "can-dy-jack <jjack_chen3@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.27"
+  }
+}
