@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/fragile/',
+  base: '/vuepress/',
   lang: 'zh',
   head: [
     ['link', {

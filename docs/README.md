@@ -19,3 +19,8 @@ features:
   details: 我的目标所在
 footer: MIT Licensed | kart·jim
 ---
+
+::: tip
+源码仓库：fragile  
+部署仓库：vuepress
+:::
