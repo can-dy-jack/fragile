@@ -2,8 +2,7 @@ name: docs
 
 on:
   push:
-    branches: [main]
-  # 手动触发部署
+    branches: [master]
   workflow_dispatch:
 
 jobs:
