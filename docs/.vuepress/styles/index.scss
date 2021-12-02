@@ -1,0 +1,36 @@
+.php01-page {
+  header {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  }
+  aside {
+    .sidebar-item:hover{
+        background-color: #EBEDEF;
+    }
+  }
+  main{
+      h2{
+          position: relative;
+          z-index: 0;
+          width: fit-content;
+        &::before{
+            content: '';
+            width: 100%;
+            height: 20px;
+            background-color: #42B983;
+            z-index: -1;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+      }
+  }
+}
+html.dark {
+  --c-text: #f1f1f1;
+}
+// about page
+.about-page {
+  header {
+    box-shadow: 0 2px 12px 2px #99999912;
+  }
+}
